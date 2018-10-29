@@ -1,0 +1,207 @@
+.textdecoration{
+    text-decoration: none; 
+    color: #969696; 
+    font-size: 14px;
+    font-weight: 600;
+}
+.textdecoration:hover{color: #e04850;
+    text-decoration: underline;}
+.background{background-color: #ffffff; text-align: center;
+    border-bottom: 1px dashed rgba(153, 153, 156, 0.836);
+   
+}
+
+.imgCheckout{background-color: #53613c; position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    text-align: center;
+    border: 0px solid  #53613c;
+}
+.backgroundmycartbottom{
+    background-color: #ffffff;
+   }
+
+.checkoutheder{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #dfdfdf;
+    text-align: center;
+}
+.checkouttopimages{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #53613c;
+    text-align: center;
+    max-width: 100%;
+    display: inline-block;
+}
+.checkoutdottedcircle{
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    width: 51px;
+    height: 50px;
+    padding-top: 12px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: hsla(0,0%,100%,.2);
+    border-radius: 100%;
+    
+}
+.checkout-step-icon{
+    height: 24px;   
+    padding-top:4px;
+    margin: 16px;
+}
+.checkouimagettitle{
+    display: block;
+    width: 60px;
+    margin-top: 45px;
+    color: #969696;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none; 
+   
+}
+.checkouimagettitle:hover{
+    color: #b13031;
+}
+.shippingdetails{
+    background-color: #ffffff; 
+    border-bottom: 1px dashed rgba(153, 153, 156, 0.836);
+   
+}
+.giftmessage{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: #bfe8a2;
+    color: #53613c;
+    line-height: 23px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.textareaShiping{
+    border: 0px;
+    border-bottom: 1px solid #969696;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.ShippingBtn {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 100px;
+    background-color: lightgray;
+    border: 0px;
+    background-color: #caccc8;
+    color: #888;
+    font-size: 15px;
+    /* position: absolute; */
+}
+.ShippingBtn:hover {
+  background-color: #53613c;
+  color: white;
+}
+.cartbtn{
+    width: 230px;
+    padding: 15px 20px 17px;
+    float: right;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+.carttitle{
+    color: #891b1c;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.amountcart{
+    margin-top: 10px;
+    font-family: Lato,sans-serif;
+    color: #0c0e0b;
+    font-size: 25px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.cartCheckOut{
+    width: 230px;
+    margin-top: 0;
+    background-color: #53613c;
+    line-height: 31px;
+    font-size: 16px;
+    font-weight: 700;
+    float: right;
+    border-radius: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 9px 25px;
+    transition: background-color .2s ease;
+    
+}
+.cartCheckOut:hover{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* payment */
+.bgBottomPayment{
+    background-color: #ffffff;
+}
+.backgroundPaymentCenter{
+    background-color: #ffffff;
+    border-bottom: 1px dashed rgba(153, 153, 156, 0.836);
+}
+.fa-stack {
+    text-align: center;
+  }
+  
+  .fa-stack .fa-caret-down {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .fa-stack .fa-caret-up {
+    position: absolute;
+    top: 0;
+  }
+  .placeorder {
+    /* position: absolute; */
+    width: 212px;
+    margin-top: -53px;
+    /* margin-left: -117px; */
+    margin-right: 10px;
+    background-color: #53613c;
+    line-height: 31px;
+    font-size: 13px;
+    font-weight: 700;
+    float: right;
+    border-radius: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7px 40px;
+    /* -webkit-transition: background-color .2s ease; */
+    transition: background-color .2s ease;
+    color: white;
+}
+.placeordermain {
+        width: 230px;
+        padding: 15px 20px 68px;
+        float: right;
+        background-color: #f3f3f3;
+        text-align: center;
+  
+}
